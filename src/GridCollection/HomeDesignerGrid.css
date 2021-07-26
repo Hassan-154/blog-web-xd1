@@ -1,0 +1,11 @@
+
+.home-design-grid{
+    width: 90%;
+    height: 120vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.712)),
+    url('../developerPic/john-schnobrich-2FPjlAyMQTA-unsplash.jpg') no-repeat center / cover;
+}
+.home-design-grid img{
+    width: 100%;
+    height: auto;
+}

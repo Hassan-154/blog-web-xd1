@@ -1,0 +1,45 @@
+.footer-container{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5em;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container h5{
+    font-weight: 650;
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+.footer-container p{
+    font-size: 16px;
+}
+.footer-second-last p{
+    color:gray;
+    font-size: 16px;
+    padding-bottom: -1em;
+}
+.footer-second-last Button{
+    margin-top: 2em;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    margin-top: 2.3em;
+    background: rgb(247,87,87);
+}
+.footer-end h4{
+    font-weight: 650;
+}
+.footer-end span{
+    color: rgb(247,87,87);
+}
+.footer-end p{
+    font-weight: 650;
+    font-size: 17px;
+}
+.footer-end h4{
+    color: black;
+}
+.footer-end h3{
+    color: rgb(247,87,87);
+    font-weight: 650;
+}

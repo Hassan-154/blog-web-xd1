@@ -1,0 +1,48 @@
+.para-container{
+    margin-top: 4em;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url('../developerPic/leon-vbxyFxlgpjM-unsplash.jpg') repeat center / cover fixed;
+}
+.para-box-inner-txt{
+    padding: 10em;
+    font-family: 'Poppins', sans-serif;
+}
+.para-text-container{
+    padding: 30px;
+}
+.para-text-container p{
+    font-size: 17px;
+    color: rgba(287,87,87);
+    font-weight: 650;
+}
+.para-container h2{
+    font-weight: 650;
+}
+.par-gray-p-line p{
+    padding-top: 1em;
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}
+.para-text-container h4{
+    padding-top: 0.4em;
+    font-weight: 650;
+}
+.para-phone-logo{
+    color: rgba(287,87,87);
+}
+
+@media (max-width: 762px) {
+    .para-box-inner-txt{
+        margin-left: -4em;
+    }
+}
+
+@media (max-width: 613px) {
+    .para-box-inner-txt{
+        margin-left: -6.5em;
+    }
+}
+

@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.home-cover{
+  width: 100%;
+}
+.header-cover{
+  width: 100%;
+  height: 105vh;
+background: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.712)),
+  url('./images/christina-wocintechchat-com-HocFQHhGjDE-unsplash.jpg') no-repeat center / cover;
+}
+.header-txt-cover{
+  color: white;
+  padding-left: 118px;
+  padding-top: 106px;
+}
+.header-txt-cover p{
+  font-size: large;
+  word-spacing: 3.5px;
+}
+.header-txt-cover h1{
+  font-size: 4.8em;
+  word-spacing: 3.3px;
+}
+/*button styling*/
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.header-txt-cover Button{
+  border-radius: 35px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  margin-top: 2.3em;
+  background: rgb(247,87,87);
+}
+.header-txt-cover span{
+  word-spacing: 3px;
+  margin-right: 3px;
+}
+/*media query section*/
+@media (max-width: 1100px) {
+  .header-txt-cover h1{
+   font-size: 4.5em;
+  }
+}
+@media (max-width: 800px) {
+  .header-txt-cover h1{
+    font-size: 4em;
+  }
+}
+@media (max-width: 694px) {
+  .header-txt-cover h1{
+    font-size: 3em;
+  }
+  .header-txt-cover{
+    margin-left: -30px;
+  }
+}
+@media (max-width: 524px) {
+  .header-txt-cover h1{
+    font-size: 2.4em;
+  }
+}
+
+/*creative lines*/
+.creative-lines{
+  padding: 100px;
+}
+.creative-lines p{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(247,87,87);
+}
+.creative-lines h1{
+  font-weight: 700;
+  font-size: 43px;
+  word-spacing: 3px;
+  line-height: 50px;
+}
+@media (max-width: 773px) {
+  .creative-lines h1{
+    font-size: 30px;
+   }
+}
+.home-icon-grid{
+  color: rgba(247,87,87);
+}
+.col-home{
+ margin-left: -1em;
+}
+.col-home p{
+  font-size: 16px;
+  color: gray;
+}
+@media (max-width: 590px) {
+  .col-home{
+    margin-left: 2em;
+   }
+}
+.what-we-are{
+  padding: 100px;
+}
+.uper-home p{
+  font-size: 19px;
+  color:rgba(247,87,87);
+  font-weight: 700;
+  font-style: bold;
+}
+.uper-home h1{
+  font-size: 42px;
+  word-spacing: 1px;
+  font-weight: 550;
+}
+.coffe-logo{
+  margin-left: -70px;
+}
+.down-home{
+  padding-top: 35px;
+}
+.down-home ul{
+  display: flex;
+}
+.down-home ul li{
+  list-style: none;
+  padding-left: 2.5em;
+}
+.down-home h4{
+  font-size: 28px;
+}
+.down-home p{
+  font-size: 19.5px;
+  color: gray;
+}
+.down-home Button{
+  border-radius: 35px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  margin-top: 2.3em;
+  background: rgb(247,87,87);
+}
+.down-home span{
+  word-spacing: 3px;
+  margin-right: 3px;
+}
+.what-img{
+  width: 100%;
+  height: 95vh;
+background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+  url('./images/pexels-fauxels-3184291.jpg') no-repeat center / cover;
+  margin-left: -100px;
+}
+.what-home{
+  padding-left: 5em;
+  padding-top: 5em;
+}
+@media (max-width: 1143px) {
+  .what-img{
+    display: none;
+  }
+}
+@media (max-width: 1086px) {
+  .what-home{
+    margin-left: -6em;
+  }
+}
+@media (max-width: 992px) {
+  .uper-home h1{
+    font-size: 33px;
+  }
+  .down-home h4{
+    font-size: 26px;
+  }
+}
+@media (max-width: 578px) {
+  .uper-home h1{
+    font-size: 25px;
+  }
+  .down-home h4{
+    font-size: 22px;
+  }
+  .down-home p{
+    font-size: 14px;
+  }
+}
+.home-service{
+  padding: 25px;
+  width: 100%;
+}
+.home-service-heading p{
+  color: rgba(247,87,87);
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.home-service-heading h1{
+  text-align: center;
+  font-size: 44px;
+}
+.hr-line{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.home-service-items ul{
+  display: flex;
+  list-style: none;
+}
+.home-service-items ul li{
+  padding-left: 2em;
+}
+.home-service-items h4{
+  font-weight: 550;
+  font-size: 19.5px;
+}
+.home-service-items p{
+  font-size: 16.5px;
+  color: gray;
+}
+.home-service-item-icon{
+  color: rgb(199,199,199);
+}
+.home-service-items{
+  padding-top: 4.5em;
+  font-family: 'Poppins', sans-serif;
+  margin-left: -2em;
+}
