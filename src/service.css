@@ -1,0 +1,15 @@
+.service-heading-section{
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.712)),
+  url('./images/austin-distel-wD1LRb9OeEo-unsplash.jpg') no-repeat center / cover;
+  text-align: center;
+  }
+  .service-heading-section h1{
+    padding-top: 2.5em;
+    font-size: 55px;
+    color: white;
+    font-weight: 650;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }

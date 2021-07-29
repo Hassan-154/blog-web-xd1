@@ -1,14 +1,15 @@
 import React from 'react'
+import Footer from './GridCollection/Footer'
 import Button from '@material-ui/core/Button';
 //import grid
 import {Grid} from '@material-ui/core'
 //import pictures
-import picOne from '../src/developerPic/alrick-gillard-0mN84vxigL0-unsplash.jpg';
-import picTwo from '../src/developerPic/cibelly-roberta-SE4Xc1WvIkU-unsplash.jpg'
-import picThree from '../src/developerPic/leilani-angel-K84vnnzxmTQ-unsplash.jpg'
-import picFour from '../src/developerPic/leonel-hernandez-arteaga-jns8BPueAgU-unsplash.jpg'
-import picFive from '../src/developerPic/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg'
-import picSix from '../src/developerPic/meritt-thomas-aoQ4DYZLE_E-unsplash.jpg'
+import picOne from '../src/developerPic/steven-jones-JSXZnudXhXk-unsplash.jpg';
+import picTwo from '../src/developerPic/ian-dooley-d1UPkiFd04A-unsplash.jpg'
+import picThree from '../src/developerPic/kevin-hellhake-7BbHyuAf1sg-unsplash.jpg'
+import picFour from '../src/developerPic/leilani-angel-K84vnnzxmTQ-unsplash.jpg'
+import picFive from '../src/developerPic/meritt-thomas-aoQ4DYZLE_E-unsplash.jpg'
+import picSix from '../src/developerPic/michael-dam-mEZ3PoFGs_k-unsplash.jpg'
 //import pages
 import InsersectionObserverAbout from './IntersectionObserver/InsersectionObserverAbout'
 function About() {
@@ -71,6 +72,7 @@ function About() {
         </Grid>
         </div>
             </div>
+            <Footer/>
         </div>
     )
 }

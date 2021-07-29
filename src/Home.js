@@ -11,6 +11,7 @@ import {FaLaptopCode} from "react-icons/fa";
 import {AiFillAndroid} from "react-icons/ai";
 import {RiFileCopy2Line} from "react-icons/ri";
 import ParallaxSection from './parallaxSection/ParallaxSection';
+import Footer from './GridCollection/Footer';
 function Home() {
     return (
         <div className="home-cover">
@@ -149,7 +150,7 @@ capabilities.</h1>
               </div>
             </div>
               <ParallaxSection/>
-              
+              <Footer/>
             </div>
     )
 }
