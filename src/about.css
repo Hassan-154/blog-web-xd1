@@ -120,3 +120,8 @@
     color: gray;
     font-size: 17px;
 }
+
+
+.dev-img-collection img{
+    border-radius: 15px;
+}
